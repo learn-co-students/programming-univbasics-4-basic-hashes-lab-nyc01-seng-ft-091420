@@ -1,16 +1,18 @@
 def new_hash
-  # return an empty hash
+  pets= {}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  pets= {"dog" => "oreo"}
 end
 
 def pioneer
+  prisoners = {:name => "Grace Hopper"}
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
 
 def id_hash_generator(number)
+  key= {:id => number}
   # return a hash with a key :id assigned to the provided number
 end
